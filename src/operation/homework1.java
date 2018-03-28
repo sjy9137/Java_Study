@@ -10,5 +10,19 @@ public class homework1 {
 		
 		int pencilsLeft = pecils % students;
 		System.out.println(pencilsLeft);
+		
+		
+		int a = 1;
+		int b = 2;
+	
+		
+		int result;
+		
+		
+		result = a+b;
+		System.out.println(result);
+		result = a*b;
+		System.out.println(result);
+		
 	}
 }
