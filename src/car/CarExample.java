@@ -1,5 +1,6 @@
 package car;
 
+
 public class CarExample {
 	public static void main(String[] args) {
 		// Car mycar = new Car(); // 생성자를 정의하면 기본 생성자 사용이 불가
@@ -13,12 +14,24 @@ public class CarExample {
 		 * mycar2.speed = 100; System.out.println(mycar2.speed);
 		 */
 
-		SuperCar mycar = new SuperCar();
-		mycar.enginOn();
-		for (int i = 0; i < 20; i++) {
-			mycar.run();
+		/*
+		 * SuperCar mycar = new SuperCar(); mycar.enginOn(); for (int i = 0; i < 20;
+		 * i++) { mycar.run(); }
+		 */
+
+		/*Car myCar = new Car();
+
+		myCar.setSpeed(-50);
+
+		System.out.println("현재 속도 : " + myCar.getSpeed());
+
+		myCar.setSpeed(60);
+
+		if (!myCar.isStop()) {
+			myCar.setStop(true);
 		}
 
+		System.out.println("현재 속도 : " + myCar.getSpeed());*/
 	}
 
 }

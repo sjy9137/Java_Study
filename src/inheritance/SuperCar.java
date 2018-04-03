@@ -1,15 +1,32 @@
-package car;
+package inheritance;
 
-import org.omg.CORBA.SystemException;
 
-public class SuperCar {
+public class SuperCar extends Car{
 
-	int speed = 0;
+/*	int speed = 0;
 	int gas = 100;
-	int maxSpeed = 200;
-	boolean engineOnOff = false;
-
-	int getSpeed() {
+	int maxSpeed= 400;
+	boolean engineOnOff = false;*/
+	
+	
+	SuperCar(){ 
+		super(400);
+		System.out.println("SuperCar()");
+	}
+	
+	
+	SuperCar(String company, String model, String color){ 
+		this.company = company;
+		this.model = model;
+		this.color = color;
+	}
+	
+	void booster() {
+		this.speed += 100;
+	}
+	
+	
+	/*int getSpeed() {
 		return this.speed;
 	}
 
@@ -44,6 +61,6 @@ public class SuperCar {
 			this.speed = 0;
 			System.out.println(" 시속  : " + speed + "km/h로 달립니다.");
 		}
-	}
+	}*/
 
 }
