@@ -15,5 +15,4 @@ public class AnimalExample {
 		b.swim();
 		b.sound();
 	}
-
 }
